@@ -1,12 +1,8 @@
-﻿name: Stock Data Collection
+name: Stock Data Collection
 
 on:
   schedule:
-    # Run Monday-Friday at 4:30 PM EST (after market close)
-    # GitHub Actions uses UTC time, so 21:30 UTC = 4:30 PM EST
     - cron: '30 21 * * 1-5'
-  
-  # Allow manual triggering for testing
   workflow_dispatch:
 
 jobs:
