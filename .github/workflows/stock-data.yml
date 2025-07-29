@@ -1,4 +1,4 @@
-name: Stock Data Collection
+﻿name: Stock Data Collection
 
 on:
   schedule:
